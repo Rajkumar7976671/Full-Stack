@@ -12,34 +12,23 @@
 
 ---
 
-## 📸 Demo
-
-> 🧪 **Live Demo (if deployed):** [Your Live URL](#)  
-> 📷 **Screenshots:** Add images below
-
-| Login Page | Task Dashboard |
-|------------|----------------|
-| ![login](assets/login.png) | ![dashboard](assets/dashboard.png) |
-
----
 
 ## 🚀 Features
 
-- ✅ User Authentication (Login & Register)
-- ✅ Create, Edit, and Delete Tasks
-- ✅ Mark Tasks as Completed/Pending
-- ✅ Real-time MongoDB Integration
-- ✅ Fully Responsive UI (Mobile/Desktop)
-- ✅ Clean and Modular Codebase
+- 🔐 Role-based authentication (Admin, Manager, Employee)
+- ✅ Admin can assign tasks to Employees
+- 📊 Manager can track the progress of all tasks
+- 🧑‍💻 Employee dashboard to view and update assigned tasks
+- 📅 Task status updates: **Pending → In Progress → Completed**
+- 🔒 JWT-based secure login system
+- 📦 MongoDB for task and user storage
+
+## 🧱 Tech Stack
+
+| Frontend         | Backend         | Database   | Others        |
+|------------------|------------------|------------|----------------|
+| React (Vite)     | Node.js          | MongoDB    | JWT Auth       |
+| React Router DOM | Express.js       | Mongoose   | Bcrypt.js      |
+| Axios            | CORS, dotenv     |            | Nodemon        |
 
 ---
-
-## 🖥️ Tech Stack
-
-| Frontend   | Backend    | Database | Authentication | Others            |
-|------------|------------|----------|----------------|-------------------|
-| React.js   | Node.js    | MongoDB  | JWT, bcrypt     | Express.js, Mongoose, Axios |
-
----
-
-
