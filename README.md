@@ -1,4 +1,4 @@
-<h1 align="center">📝 Task Manager</h1>
+<h1 align="center">📝 User Based Task Manager Role</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERN-Stack-blue?style=flat-square" />
@@ -42,5 +42,4 @@
 
 ---
 
-## 📁 Project Structure
 
